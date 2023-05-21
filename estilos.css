@@ -60,6 +60,8 @@ header li{
 
 header #branding{
 display: flex;
+justify-content: center;
+float:left;
   
 }
 header #branding img{
