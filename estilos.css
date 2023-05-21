@@ -60,7 +60,11 @@ header #branding{
   justify-content: center;
   float:left;
 }
+header #branding img{
+  height: 50px;
+  margin-right: 10px;
 
+}
 header #branding h1{
   margin:0;
   color: rgb(0, 0, 0);
@@ -167,6 +171,7 @@ ul#services li{
   border: #cccccc solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
+  text-align: center;
 }
 
 footer{
@@ -194,6 +199,8 @@ footer{
 
   header{
     padding-bottom:20px;
+    flex-direction: column;
+    
   }
   #branding h1{
     text-align: center;
