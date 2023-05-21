@@ -36,7 +36,8 @@ ul{
 
 /* Header **/
 header{
-  background:#d6e607;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(214,230,7,1) 41%, rgba(255,141,0,1) 100%);
   color:#151313;
   padding-top:30px;
   min-height:70px;
