@@ -58,6 +58,7 @@ header a{
   border: 3px solid black;
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;
+  text-decoration: none;
 }
 header a:hover{
   transform: translate(-0.05em, -0.05em);
