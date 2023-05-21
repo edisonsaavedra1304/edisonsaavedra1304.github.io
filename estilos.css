@@ -184,6 +184,9 @@ ul#services li{
 footer{
   padding:20px;
   margin-top:20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   color:#000000;
   background-color:yellow;
   text-align: center;
