@@ -47,19 +47,24 @@ header{
 }
 
 header a{
-  font-size: 1rem;
-  padding: 0.8em 2em;
-  background-color: #000;
-  border: 3px solid rgb(140, 138, 1);
-  border-radius: 1em;
-  color: #fff;
-  font-weight: bolder;
-  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-  box-shadow: -5px 5px 0px 0px yellow;
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
 }
 header a:hover{
-  transform: translate(5px, -5px);
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
 }
+header a:active{
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
 
 header li{
   float:left;
